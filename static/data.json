@@ -1,0 +1,139 @@
+{
+	"h5": [
+		{
+			"imgs": [
+				"../../static/img/boka1.jpg",
+				"../../static/img/3.jpg",
+				"../../static/img/2.jpg"
+			],
+			"projectName": "智慧靓店-管理中心",
+			"projectDes": "一款SASS系统，着力于美业(美发)行业的店面管理系统软件(网页版)，设计店面管理，预约，业绩分析等诸多方面",
+			"projectContent": [
+				"1.负责公司产品-智慧靓店的Web前端研发，并配合后端的开发",
+				"2.开发迭代部分的页面有  用户权限页面,店铺日服务报表页面，管理中心-预约页面，页面导出excel表格",
+				"3.与产品经理共同制定页面需求并实现页面交互效果",
+				"4.负责相关页面的 中间层 node.js 的数据处理，对原始接口做相应的数据处理"
+			],
+			"projectTechnology": [
+				"1. 运用AngularJS (1.5版本) 开发项目，实现web端MVC设计。双向绑定，减少操作DOM元素让我们只关注数据层，提高代码效率",
+				" 2. 采用 node.js 作为中间层 访问 java 后台接口，从而不会将原始接口暴露在外界。更加安全，也更加灵活",
+				" 3. 在  node.js 使用插件里将报表导出excel 表格，实现对excel表格的自定义排版，包括颜色，合并单元格等",
+				"4. 运用  echats 框架绘制  折线图，饼图, 柱状图，数据一目了然帮助用户分析店面日常数据",
+				" 5. 运用stomp.js 实现与服务器的 Socket连接，满足预约信息的实时性",
+				" 6.接入 百度语音,实时播报 预约 与 付款信息，满足产品现实场景需求",
+				"7.运用npm 导入需要的模块，webpack打包",
+				"8.使用Angular路由实现页面之间的切换，单页面应用，提高了软件的体验",
+				"9.项目链接: http://s3.bokao2o.com"
+			]
+		}, {
+			"imgs": [
+				"../../static/img/1.jpg",
+				"../../static/img/koubei2.jpg",
+				"../../static/img/koubei3.jpg"
+			],
+			"projectName": "支付宝-口碑开店后台系统",
+			"projectDes": "一款SASS系统，帮助商户在支付宝口碑中开店的后台系统，录入商品的名字，价格，图片等，并实现一键搬家，从美团等其他平台将商户自己家的产品直接导入到口碑中，实现数据同步",
+			"projectContent": [
+				"1.负责支付宝-口碑开店后台系统的Web前端开发",
+				"2.开发迭代部分的页面有 创建商品页面，修改商品页面，商品列表展示页面",
+				"3.处理支付宝原始返回数据的处理，以实现web页面展示"
+			],
+			"projectTechnology": [
+				"1. 运用AngularJS (1.5版本) 开发项目，实现web端MVC设计。双向绑定，减少操作DOM元素让我们只关注数据层，提高代码效率",
+				" 2. 采用 AngularJS 中 upLoad插件 实现图片的上传功能",
+				" 3. 运用npm 导入需要的模块，webpack打包",
+				"4. 使用Angular路由实现页面之间的切换，单页面应用，提高了软件的体验",
+				" 5. 项目链接: http://s3.bokao2o.com/alipay/login"
+			]
+		}, {
+			"imgs": [
+				"../../static/img/top.jpg",
+				"../../static/img/hua1.jpg",
+				"../../static/img/hua2.jpg",
+				"../../static/img/hua3.jpg",
+				"../../static/img/hua4.jpg"
+			],
+			"projectName": "化疗手册 等",
+			"projectDes": "肿瘤资讯App中单独的H5页面，有很多页面，也可分享到微信，也是同一个页面，页面有：化疗手册，本周最热，行业新闻等页面",
+			"projectContent": [
+				"1.独立开发上述页面(本周最热页面，行业新闻页面，化疗手册页面等)，此处页面可嵌入App中，也用于微信分享中展示",
+				"2.H5与ios 原生系统，与 Android 系统的交互探索"
+			],
+			"projectTechnology": [
+				"1.使用Vue.js 构建单页面应用，数据双向绑定，提高开发效率",
+				" 2.使用Vue 组件库 Mint UI(饿了么研发的移动端的组件框架) 完成对页面的构建，提高页面更加的美观",
+				" 4.实现一个页面多端，多环境应用展示，来构建不同的交互与UI(如微信环境 与 原生App环境)",
+				" 5.兼容了 iOS 与 Android 不同设备上的屏幕适配问题，优化适配方案",
+				"  6.兼容 iOS 与 Android 不同系统的差异(比如:处理腾讯视频 链接问题等)",
+				"7.展示页面地址：http://doctor.liangyihui.net/doctor/dve/topList.html   (本周最热)",
+				"8.展示页面地址： http://doctor.liangyihui.net/doctor/dve/booklist.html （化疗手册）"
+			]
+		}
+	],
+	"ios": [
+		{
+			"imgs": [
+				"../../static/img/liang1.jpg",
+				"../../static/img/liang2.jpg",
+				"../../static/img/liang3.jpg",
+				"../../static/img/liang4.jpg"
+			],
+			"projectName": "肿瘤资讯",
+			"projectDes": "该款App是一个资讯类的app，专注于互联网医疗领域，提供最专业最新的资讯，可在线与医生聊天，病程记录等",
+			"projectContent": [
+				"1.独立负责整个App的开发，上架，设计整个项目的前端框架",
+				"2.独立解决App中所遇到的技术问题"
+			],
+			"projectTechnology": [
+				"1.接入融云IM聊天功能 、native跳转、视频直播",
+				"2.HTML5 与iOS框架设计，交互",
+				"3.下载地址https://itunes.apple.com/cn/app/liang-yi-hui-zhong-liu-zi-xun/id1034265664?mt=8"
+			]
+		}, {
+			"imgs": [
+				"../../static/img/xue1.jpg",
+				"../../static/img/xue2.jpg",
+				"../../static/img/xue3.jpg"
+			],
+			"projectName": "学术大使",
+			"projectDes": "良医汇-学术大使App 是一款专业提供给医药代表是使用的App，经过特别的定制，可以实时推送各个医药代表需要的文章",
+			"projectContent": [
+				"1.独立负责整个App的开发，上架，设计整个项目的前端框架"
+			],
+			"projectTechnology": [
+				"1.极光推送",
+				"2.MySQL本地本地数据存储等",
+				"3.下载地址https://itunes.apple.com/cn/app/liang-yi-hui-zhong-liu-zi-xun/id1034265664?mt=8"
+			]
+		}, {
+			"imgs": [
+				"../../static/img/yejitong1.jpg",
+				"../../static/img/yejitong2.jpg",
+				"../../static/img/yejitong3.jpg",
+				"../../static/img/yejitong4.jpg"
+			],
+			"projectName": "业绩通",
+			"projectDes": "业绩通是一款帮助连锁企业店面管理的一款APP，是以提升业绩为目的，以移动互联网为工具，以目标管理为方法，最终解决了零售连锁企业管理痛点——销售业绩提升和精细化管理难题",
+			"projectContent": [
+				"  1.独立负责业绩通App全程开发"
+			],
+			"projectTechnology": [
+				"1. Web Service采用SOAP协议，百度地图、扫描二维码 （ ZBar）、 Core Data、音乐播放",
+				"2.APP 下载地址  http://www.wwcode.net/s/hcs6e  "
+			]
+		}, {
+			"imgs": [
+				"../../static/img/ju1.jpg",
+				"../../static/img/ju2.jpg"
+			],
+			"projectName": "桔子云 购物平台",
+			"projectDes": " 桔子云购物平台 是一个 O2O 的 大型的综合购物平台，有各种商家入驻，出售的服务种类繁多，包括旅游，场地  体育活动的预定，网上百货购物等，实现了商户与普通用户的无缝连接",
+			"projectContent": [
+				" 1.负责上品浏览等部分页面"
+			],
+			"projectTechnology": [
+				" 1.  具备商品搜索／浏览 购买 在线支付 订单查询 订单修改等功能"
+			]
+		}
+	]
+}
